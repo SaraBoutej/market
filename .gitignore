@@ -37,6 +37,9 @@ pom.xml.versionsBackup
 .project
 *.log
 
+# .vscode
+.vscode
+
 # hotswap-agent file
 hotswap-agent.properties
 
