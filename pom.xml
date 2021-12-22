@@ -13,7 +13,6 @@
   <packaging>pom</packaging>
   <name>eXo Market - Parent POM</name>
   <modules>
-    <module>market-api</module>
     <module>market-services</module>
     <module>market-webapp</module>
     <module>market-packaging</module>
@@ -50,13 +49,6 @@
       </dependency>
 
       <!-- Current project artifacts -->
-      <dependency>
-        <groupId>${project.groupId}</groupId>
-        <artifactId>market-api</artifactId>
-        <version>${project.version}</version>
-        <scope>provided</scope>
-      </dependency>
-
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>market-services</artifactId>
