@@ -3,6 +3,22 @@
    xsi:schemaLocation="http://www.exoplatform.org/xml/ns/kernel_1_2.xsd http://www.exoplatform.org/xml/ns/kernel_1_2.xsd"
    xmlns="http://www.exoplatform.org/xml/ns/kernel_1_2.xsd">
 
+  <component>
+    <type>org.exoplatform.market.dao.ProductDAO</type>
+  </component>
+  <component>
+    <type>org.exoplatform.market.storage.ProductStorage</type>
+  </component>
+
+  <component>
+    <key>org.exoplatform.market.service.ProductService</key>
+    <type>org.exoplatform.market.service.impl.ProductServiceImpl</type>
+  </component>
+
+  <component>
+    <type>org.exoplatform.market.rest.ProductRest</type>
+  </component>
+
   <external-component-plugins>
     <target-component>org.exoplatform.commons.api.persistence.DataInitializer</target-component>
     <component-plugin>
